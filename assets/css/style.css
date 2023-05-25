@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&display=swap');
+
+* {
+    margin: 100;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+#title {
+    font-family: 'Coiny', cursive;
+    padding: 50px;
+    margin: auto;
+    text-align: center;
+    color: #E53170;
+    font-size: 50px;
+}
+
+header p {
+    padding: 0px 400px;
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+}
+
+.clearfix {
+    padding: 60px;
+    margin: auto;
+}
+
+.clearfix::after{
+    content: "";
+    display : table;
+    clear: both;
+    }
+
+.box {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Coiny', cursive;
+    font-size: 20px;
+    width: 30%;
+    float: left;
+    margin: 50px 20px;
+    box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.box img {
+    float: left;
+    margin-right: 30px;
+}
+
+.box a {
+    color: #35BCE9;
+    text-decoration: none;
+}
+
